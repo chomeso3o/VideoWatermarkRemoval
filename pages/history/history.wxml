@@ -1,0 +1,16 @@
+<!-- 原生广告ID -->
+<ad-custom unitId="adunit-77fd267bf23e7bb3"></ad-custom>
+<view class="container">
+    <view class="title">仅保存最近50条(保存在本地，删除程序会导致记录丢失)</view>
+    <view class="clear">
+        <view bindtap="clear_record" class="clear_btn">清空记录</view>
+    </view>
+    <view class="list">
+        <view class="list_item" wx:for="{{analysis}}">
+            <view class="content">{{item}}</view>
+            <view class="jilu_btn">
+                <view bindtap="copyBtn" class="copy_link" data-kefu="{{item}}">复制链接</view>
+            </view>
+        </view>
+    </view>
+</view>

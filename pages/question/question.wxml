@@ -1,0 +1,15 @@
+<!-- 原生广告ID -->
+<ad-custom unitId="adunit-77fd267bf23e7bb3"></ad-custom>
+<view class="container">
+    <view class="title">1、为什么解析成功后还是有水印？</view>
+    <view class="content">原视频或原图自带的水印，本小程序将无法去除</view>
+    <view class="title">2、解析失败？</view>
+    <view class="content">有多种情况会导致解析失败，1、刚发布的作品，需要等待平台审核通过后才能解析，这种情况建议过段时间再试；2、作品设置成了私密或好友可见，需要将作品设成公开才能解析；3、设置了私密账号，需要将账号设成公开才可以；4、暂时不支持该平台；5、如果不是以上几种情况，请与客服联系。</view>
+    <view class="title">3、保存失败？</view>
+    <view class="content">可以尝试一下方法：1、请点击小程序右上角【...】按钮，选择【重新进入小程序】后尝试；2、先将本小程序添加到【我的小程序】，然后在最近使用的小程序列表里将本小程序删除，然后重新进入小程序。如果仍然保存失败，请与我们的客服联系！</view>
+    <view class="title">4、图片或视频版权归平台及作者所有，本站不存储任何图片或视频。</view>
+    <view class="title othertitle">5、本平台上所有功能均免费使用。</view>
+    <view class="btn">
+        <view bindtap="copyBtn" class="kefu_btn" data-kefu="o_8_8_8_8_8_8_8_8_0">仍有问题？联系客服</view>
+    </view>
+</view>

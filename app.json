@@ -1,0 +1,36 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/history/history",
+        "pages/question/question",
+        "pages/analysis/analysis",
+        "pages/my/my"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#07c160",
+        "navigationBarTitleText": "去水印",
+        "navigationBarTextStyle": "white"
+    },
+    "tabBar": {
+        "custom": false,
+        "color": "#7A7E83",
+        "selectedColor": "#3cc51f",
+        "borderStyle": "black",
+        "backgroundColor": "#fff",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "首页",
+                "iconPath": "img/home_normal.png",
+                "selectedIconPath": "img/home_selected.png"
+            },
+            {
+                "pagePath": "pages/history/history",
+                "text": "历史记录",
+                "iconPath": "img/history.png",
+                "selectedIconPath": "img/history_selected.png"
+            }
+        ]
+    }
+}

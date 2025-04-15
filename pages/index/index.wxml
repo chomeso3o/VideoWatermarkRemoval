@@ -1,0 +1,36 @@
+<view class="container">
+    <view class="banner">
+        <view class="content">
+            <view class="content_item">
+                <text class="dian"></text>免费下载高清原图</view>
+            <view class="content_item">
+                <text class="dian"></text>无水印短视频下载</view>
+
+        </view>
+       
+    </view>
+    <!-- 原生广告ID -->
+    <ad-custom unitId="adunit-77fd267bf23e7bb3"></ad-custom>
+    <textarea bindinput="bindinput" class="analysis" placeholder="请在此输入视频（或图集）链接" value="{{inputValue}}"></textarea>
+    <view class="btn" wx:if="{{isInput}}">
+        <view class="qushuiying" type="default">
+            <view bindtap="qushuiyin" hoverClass="navigator-hover">一键去水印</view>
+        </view>
+        <view bindtap="clear" class="clear" type="default">清空内容</view>
+    </view>
+    <view class="btn" wx:else>
+        <view class="qushuiying" type="default">
+            <view bindtap="paste_and_content" hoverClass="navigator-hover">粘贴并解析</view>
+        </view>
+        <view bindtap="paste" class="clear" type="default">粘贴内容</view>
+    </view>
+    <view class="list">
+        <view class="list_item">
+            <navigator hoverClass="navigator-hover" url="/pages/question/question"> 常见问题 <text class="arrowhead">></text>
+            </navigator>
+        </view>
+        <view bindtap="copyBtn" class="list_item other_item" data-kefu="o_8_8_8_8_8_8_8_8_0"> 点击复制客服微信 <text class="arrowhead">></text>
+        </view>
+    </view>
+    <button class="feedback" openType="contact">建议/反馈</button>
+</view>

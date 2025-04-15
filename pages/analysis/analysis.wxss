@@ -1,0 +1,145 @@
+.container {
+    padding-bottom: 50rpx;
+    position: relative;
+}
+
+.add_my_xcx {
+    background-color: #07c160;
+    color: #fff;
+    font-size: 25rpx;
+    height: 50rpx;
+    line-height: 50rpx;
+    margin-top: 30rpx;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+.close {
+    height: 40rpx;
+    position: absolute;
+    right: 40rpx;
+    top: 5rpx;
+    width: 40rpx;
+}
+
+.triangleL {
+    border: 25rpx solid transparent;
+    border-bottom-color: #07c160;
+    height: 0rpx;
+    margin-right: 5rpx;
+    margin-top: 10rpx;
+    position: absolute;
+    right: 110rpx;
+    top: -59rpx;
+    width: 0rpx;
+}
+
+.box {
+    border: 1rpx solid #07c160;
+    border-radius: 20rpx;
+    box-shadow: 0rpx -4rpx 30rpx 4rpx hsla(0,0%,65%,.34);
+    margin-left: 5%;
+    margin-top: 50rpx;
+    width: 90%;
+}
+
+.header {
+    height: 100rpx;
+    padding-bottom: 40rpx;
+    position: relative;
+    width: 100%;
+}
+
+.title {
+    left: 20rpx;
+    top: 10rpx;
+}
+
+.english,.title {
+    color: #07c160;
+    font-size: 50rpx;
+    font-weight: 700;
+    position: absolute;
+}
+
+.english {
+    left: 50rpx;
+    opacity: .2;
+    top: 30rpx;
+}
+
+.myVideo {
+    border-radius: 15rpx;
+}
+
+.btn,.myVideo {
+    margin-left: 10%;
+    width: 80%;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50rpx;
+    padding-bottom: 30rpx;
+}
+
+.copy_link {
+    border: 1rpx solid #07c160;
+    color: #07c160;
+}
+
+.copy_link,.save {
+    border-radius: 10rpx;
+    height: 80rpx;
+    line-height: 80rpx;
+    text-align: center;
+    width: 240rpx;
+}
+
+.save {
+    background-color: #07c160;
+    color: #fff;
+}
+
+.solution {
+    color: #07c160;
+    font-size: 25rpx;
+    height: 100rpx;
+    letter-spacing: 2rpx;
+    line-height: 100rpx;
+    text-align: center;
+    text-decoration: underline;
+    width: 100%;
+}
+
+.cover_img {
+    border-radius: 10rpx;
+    height: 1000rpx;
+    margin-left: 10%;
+    width: 80%;
+}
+
+.content {
+    background-color: #f3f1f1;
+    border-radius: 10rpx;
+    font-size: 28rpx;
+    height: 250rpx;
+    margin-left: 4%;
+    padding-top: 20rpx;
+    width: 92%;
+}
+
+.copy_content {
+    background-color: #07c160;
+    border-radius: 10rpx;
+    color: #fff;
+    height: 80rpx;
+    line-height: 80rpx;
+    margin-bottom: 40rpx;
+    margin-left: 10%;
+    margin-top: 50rpx;
+    text-align: center;
+    width: 80%;
+}

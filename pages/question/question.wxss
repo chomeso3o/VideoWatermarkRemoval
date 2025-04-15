@@ -1,0 +1,39 @@
+.container {
+    margin-left: 5%;
+    margin-top: 20rpx;
+    width: 90%;
+}
+
+.title {
+    color: #07964c;
+    font-size: 35rpx;
+    font-weight: 700;
+}
+
+.othertitle {
+    color: red;
+    margin-top: 50rpx;
+}
+
+.content {
+    font-size: 28rpx;
+    margin-bottom: 50rpx;
+    margin-top: 10rpx;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.kefu_btn {
+    background-color: #07c160;
+    border-radius: 10rpx;
+    color: #fff;
+    height: 80rpx;
+    line-height: 80rpx;
+    margin-top: 100rpx;
+    text-align: center;
+    width: 350rpx;
+}

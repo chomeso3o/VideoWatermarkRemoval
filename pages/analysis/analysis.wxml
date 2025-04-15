@@ -1,0 +1,40 @@
+<view class="container">
+    <view class="triangleL" wx:if="{{isaddmyxcx}}"></view>
+    <view class="add_my_xcx" wx:if="{{isaddmyxcx}}"> 防失联，添加到【我的小程序】 <image bindtap="close" class="close" src="../../img/close.png"></image>
+    </view>
+    <!-- 原生广告ID -->
+    <ad-custom unitId="adunit-77fd267bf23e7bb3"></ad-custom>
+    <view class="box">
+        <view class="header">
+            <view class="title">视频</view>
+            <view class="english">VIDEO</view>
+        </view>
+        <video class="myVideo" src="{{video}}"></video>
+        <view class="btn">
+            <view bindtap="copyBtn" class="copy_link" data-copytxt="{{video}}">复制链接</view>
+            <view bindtap="onStartDownload" class="save">保存视频</view>
+        </view>
+        <view class="solution">
+            <navigator hoverClass="navigator-hover" url="/pages/question/question">下载失败？点我查看解决方案</navigator>
+        </view>
+    </view>
+    <view class="box">
+        <view class="header">
+            <view class="title">封面</view>
+            <view class="english">COVER</view>
+        </view>
+        <image class="cover_img" src="{{image}}"></image>
+        <view class="btn">
+            <view bindtap="copyBtn" class="copy_link" data-copytxt="{{image}}">复制链接</view>
+            <view bindtap="downloadImg" class="save">保存封面</view>
+        </view>
+    </view>
+    <view class="box">
+        <view class="header">
+            <view class="title">文案</view>
+            <view class="english">CONTENT</view>
+        </view>
+        <view class="content">{{title}}</view>
+        <view bindtap="copyBtn" class="copy_content" data-copytxt="{{title}}">复制文案</view>
+    </view>
+</view>

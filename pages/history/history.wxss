@@ -1,0 +1,82 @@
+.title {
+    background-color: #fff;
+    color: #696969;
+    font-size: 22rpx;
+    height: 80rpx;
+    line-height: 80rpx;
+    text-align: center;
+    width: 100%;
+}
+
+.clear {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.clear_btn {
+    background-color: #07c160;
+    border-radius: 10rpx;
+    color: #fff;
+    height: 80rpx;
+    line-height: 80rpx;
+    text-align: center;
+    width: 200rpx;
+}
+
+.list {
+    margin-left: 5%;
+    margin-top: 40rpx;
+    padding-bottom: 50rpx;
+    width: 90%;
+}
+
+.list_item {
+    border: 1rpx solid #b5f0d1;
+    border-radius: 10rpx;
+    margin-bottom: 40rpx;
+    padding-top: 20rpx;
+    width: 100%;
+}
+
+.content {
+    border-bottom: 1rpx solid #b5f0d1;
+    color: #363639;
+    font-size: 30rpx;
+    height: 150rpx;
+    line-height: 50rpx;
+    margin-left: 5%;
+    overflow: hidden;
+    padding-bottom: 10rpx;
+    text-overflow: ellipsis;
+    width: 90%;
+}
+
+.jilu_btn {
+    align-items: center;
+    display: flex;
+    height: 100rpx;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.copy_link {
+    border: 1rpx solid #ccc;
+    border-radius: 10rpx;
+    color: #363636;
+}
+
+.analysis,.copy_link {
+    font-size: 25rpx;
+    height: 50rpx;
+    line-height: 50rpx;
+    margin-right: 40rpx;
+    text-align: center;
+    width: 180rpx;
+}
+
+.analysis {
+    background-color: #09da6e;
+    border-radius: 10rpx;
+    color: #fff;
+}
